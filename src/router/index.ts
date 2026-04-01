@@ -5,7 +5,7 @@ import MotorcycleInsurancePage from "@/pages/MotorcycleInsurancePage.vue";
 import CarInsuranceCalcPage from "@/pages/CarInsuranceCalcPage.vue";
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: "/",
